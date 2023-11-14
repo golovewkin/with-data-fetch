@@ -1,0 +1,30 @@
+{
+  "name": "with-data-fetch",
+  "version": "1.0.0",
+  "description": "hoc component for data fetching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golovewkin/with-data-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "data fetch",
+    "data-fetch",
+    "use-fetch",
+    "withDataFetch"
+  ],
+  "author": "golovewkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golovewkin/with-data-fetch/issues"
+  },
+  "homepage": "https://github.com/golovewkin/with-data-fetch#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.8.3",
+    "react": "^18.2.0"
+  }
+}
