@@ -1,6 +1,6 @@
 {
   "name": "with-data-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hoc component for data fetching",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/golovewkin/with-data-fetch#readme",
   "dependencies": {
     "@tanstack/react-query": "^5.8.3",
+    "prettier": "^3.1.0",
     "react": "^18.2.0"
   }
 }

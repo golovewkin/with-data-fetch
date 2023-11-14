@@ -1,11 +1,11 @@
-# mine
+# with-data-fetch
 
 > A custom React hoc for data fetching.
 
 ## Install
 
 ```bash
-npm i mine
+npm i with-data-fetch
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ const AppWrapper = () => {
 }
 
 const App = ({data}) => {
-	return <span>{JSON.stringify(data)}</span>
+  return <span>{JSON.stringify(data)}</span>
 };
 
 
