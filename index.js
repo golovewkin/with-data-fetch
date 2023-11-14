@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useQuery } from "@tanstack/react-query";
 
 const withDataFetch = (Component) => (props) => {
@@ -7,11 +7,7 @@ const withDataFetch = (Component) => (props) => {
   const query = useQuery({ queryKey: [queryKey], queryFn: getData });
 
   if (query.isError) {
-    return (
-      <div>
-        <div>{query.error.toString()}</div>
-      </div>
-    );
+    return <div>{query.error.toString()}</div>;
   }
 
   if (query.isFetching) {
