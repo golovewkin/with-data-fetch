@@ -1,6 +1,6 @@
 {
   "name": "with-data-fetch",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "hoc component for data fetching",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,6 @@
   },
   "homepage": "https://github.com/golovewkin/with-data-fetch#readme",
   "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.23.3",
-    "@babel/preset-react": "^7.23.3",
     "@tanstack/react-query": "^5.8.3",
     "prettier": "^3.1.0",
     "react": "^18.2.0"
