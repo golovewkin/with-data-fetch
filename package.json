@@ -1,6 +1,6 @@
 {
   "name": "with-data-fetch",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "hoc component for data fetching",
   "main": "index.js",
   "scripts": {
