@@ -2,10 +2,7 @@ import React from 'react';
 import { useQuery } from "@tanstack/react-query";
 
 const withDataFetch = (Component) => (props) => {
-  const { fetchCommand = 'getAll', fetchParamCollection, fetchParamId, queryKey, DBService } = props;
-  const getData = React.useCallback(() => {
-    return DBService[fetchCommand](fetchParamCollection, fetchParamId);
-  }, [fetchCommand, fetchParamCollection, fetchParamId]);
+  const { getData, queryKey } = props;
 
   const query = useQuery({ queryKey: [queryKey], queryFn: getData });
 
