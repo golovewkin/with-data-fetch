@@ -14,8 +14,6 @@ npm i mine
 import React from 'react';
 import withDataFetch from 'mine';
 
-const baseUrl = 'https://jsonplaceholder.typicode.com';
-
 const AppWrapper = () => {
   const getData = React.useCallback(() => {
     return ['my data']
